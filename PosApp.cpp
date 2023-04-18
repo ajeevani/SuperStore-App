@@ -92,17 +92,27 @@ namespace superstore
 		{
 			Item* temp = nullptr;
 			char type;
+			bool done = 0;
 			cout << "Is the Item perishable? (Y)es/(N)o: ";
-			cin >> type;
-			if (cin)
+			while (!done)
 			{
-				if (type == 'y' || type == 'Y')
+				cin >> type;
+				if (cin)
 				{
-					temp = new Perishable();
+					if (type == 'y' || type == 'Y')
+					{
+						temp = new Perishable();
+						done = 1;
+					}
+					else if (type == 'N' || type == 'n')
+					{
+						temp = new NonPerishable();
+						done = 1;
+					}
 				}
-				else if (type == 'N' || type == 'n')
+				else
 				{
-					temp = new NonPerishable();
+					cout << "Only 'y' and 'n' are acceptable: ";
 				}
 			}
 			temp->read(cin);
