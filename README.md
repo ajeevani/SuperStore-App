@@ -9,7 +9,7 @@ This is a C++ OOP-based application that lists all products in inventory, allows
 3. Compile the program using a C++ compiler.
 4. Run the executable file.
 
-## Use app on replit
+## Replit Link
 
 https://replit.com/@underdawgg/SuperStore-App
 
