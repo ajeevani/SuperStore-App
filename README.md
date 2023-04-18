@@ -29,7 +29,7 @@ To add stock to an existing item in the inventory, select the "Stock Item" optio
 
 ### Point of Sale System
 
-To use the point of sale system, select the "POS" option from the main menu and follow the prompts. The program will display all the items in the inventory and prompt you to enter the SKU of the item. Once all items have been entered, the program will print a bill and save all the data in the app to a csv file for next launch.
+To use the point of sale system, select the "POS" option from the main menu and follow the prompts. The program will prompt you to enter the SKU of the item. Once all items have been entered, the program will print a bill and save all the data in the app to a csv file for next launch.
 
 ## CSV File Format
 
